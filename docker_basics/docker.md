@@ -28,7 +28,9 @@ docker exec -it 21349876zdf sh
 CTRL-D
 ___
 ___
-
+##### Build Image
+docker build .
+docker run 13qdsdzf123
 
 
 
