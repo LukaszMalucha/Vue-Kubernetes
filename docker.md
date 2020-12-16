@@ -30,8 +30,16 @@ ___
 ___
 ##### Build Image
 docker build .
+___
+##### Run Container out of an image
 docker run 13qdsdzf123
-
-
-
+___
+##### Tag Image
+docker build -t johndoe/mytag:latest 
+___
+##### Docker IP
+docker-machine ip
+___
+##### Run Container with port mapping
+docker -p 8080:8080 run 13qdsdzf123
 
