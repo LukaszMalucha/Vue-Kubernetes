@@ -27,6 +27,10 @@ ___
 docker exec -it 21349876zdf sh
 CTRL-D
 ___
+##### Docker IP
+docker-machine ip
+___
+### DOCKER IMAGE
 ___
 ##### Build Image
 docker build .
@@ -37,9 +41,25 @@ ___
 ##### Tag Image
 docker build -t johndoe/mytag:latest 
 ___
-##### Docker IP
-docker-machine ip
-___
 ##### Run Container with port mapping
 docker -p 8080:8080 run 13qdsdzf123
+___
+### DOCKER COMPOSE
+___
+##### Launch containers with docker-compose
+docker-compose up -d
+___
+##### Stop containers with docker-compose
+docker-compose down
+___
+##### Container status
+docker-compose ps
+___
+
+
+
+
+
+
+
 
