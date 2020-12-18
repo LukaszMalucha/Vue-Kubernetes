@@ -44,6 +44,18 @@ ___
 ##### Run Container with port mapping
 docker -p 8080:8080 run 13qdsdzf123
 ___
+##### Run Dockerfile.dev
+docker build -f Dockerfile.dev .
+___
+##### Docker volumes (WIN)
+docker run -p 8080:8080 -v /app/node_modules -v $(pwd):/app -e CHOKIDAR_USEPOLLING=true 250132c330be
+___
+##### Attach to container
+docker attach 123421xzxc
+___
+
+
+
 ### DOCKER COMPOSE
 ___
 ##### Launch containers with docker-compose
